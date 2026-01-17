@@ -1,3 +1,10 @@
+---
+name: web-application-testing
+description: Expert knowledge in testing web applications across all levels, from unit tests to end-to-end testing. Covers unit testing, integration testing, E2E testing, Test-Driven Development (TDD), test coverage, mocking and stubbing, performance testing, and visual regression testing. Use when writing tests or implementing testing strategies.
+metadata:
+  version: 1.0.0
+---
+
 # Web Application Testing Skill
 
 Expert knowledge in testing web applications across all levels, from unit tests to end-to-end testing.

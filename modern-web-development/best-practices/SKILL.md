@@ -1,3 +1,10 @@
+---
+name: web-development-best-practices
+description: Expert knowledge in modern web development best practices, patterns, and industry standards. Covers code quality, design patterns, version control, documentation, code review, CI/CD, error handling, and state management. Use when establishing coding standards or reviewing code architecture.
+metadata:
+  version: 1.0.0
+---
+
 # Web Development Best Practices Skill
 
 Expert knowledge in modern web development best practices, patterns, and industry standards.

@@ -1,3 +1,10 @@
+---
+name: modern-web-development
+description: Expertise in modern web development practices, tools, and technologies. Covers HTML5, CSS3, JavaScript (ES6+), modern frameworks (React, Vue, Angular, Svelte), build tools, TypeScript, PWAs, and responsive design. Use when building or modernizing web applications.
+metadata:
+  version: 1.0.0
+---
+
 # Modern Web Development Skills
 
 This skill set provides expertise in modern web development practices, tools, and technologies.

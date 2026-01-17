@@ -1,3 +1,10 @@
+---
+name: web-accessibility
+description: Expert knowledge in creating accessible web applications that comply with WCAG guidelines. Covers ARIA, semantic HTML, keyboard navigation, screen reader support, color contrast, and focus management. Use when implementing accessibility features or ensuring WCAG compliance.
+metadata:
+  version: 1.0.0
+---
+
 # Web Accessibility Skill
 
 Expert knowledge in creating accessible web applications that comply with WCAG guidelines and ensure usability for all users.

@@ -1,3 +1,10 @@
+---
+name: web-performance
+description: Expert knowledge in optimizing web application performance for speed, efficiency, and excellent user experience. Covers Core Web Vitals (LCP, FID/INP, CLS), loading optimization, runtime performance, bundle optimization, image optimization, caching strategies, lazy loading, and code splitting. Use when optimizing page load times or improving performance metrics.
+metadata:
+  version: 1.0.0
+---
+
 # Web Performance Skill
 
 Expert knowledge in optimizing web application performance for speed, efficiency, and excellent user experience.

@@ -1,3 +1,10 @@
+---
+name: web-security
+description: Expert knowledge in implementing secure web applications and protecting against common vulnerabilities. Covers OWASP Top 10, authentication and authorization, data protection, Content Security Policy (CSP), HTTPS/TLS, input validation, secure dependencies, and API security. Use when implementing security features or addressing security vulnerabilities.
+metadata:
+  version: 1.0.0
+---
+
 # Web Security Skill
 
 Expert knowledge in implementing secure web applications and protecting against common vulnerabilities.
