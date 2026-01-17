@@ -162,7 +162,7 @@ When suggesting APIs, include:
 | Observers    | IntersectionObserver, MutationObserver, ResizeObserver | Scroll/resize event polling    |
 | Animations   | CSS animations, Web Animations API                     | jQuery animations              |
 | Forms        | Constraint Validation API                              | Manual validation              |
-| Dates        | `Intl.DateTimeFormat`, Temporal (when available)       | Manual date formatting         |
+| Dates        | `Intl.DateTimeFormat`; Temporal proposal (check current browser support before use) | Manual date formatting         |
 | Numbers      | `Intl.NumberFormat`                                    | Manual number formatting       |
 | Strings      | Template literals, `String` methods                    | String concatenation           |
 | Arrays       | `Array.from()`, spread operator, `.at()`               | `Array.prototype.slice.call()` |
