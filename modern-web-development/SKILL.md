@@ -149,15 +149,15 @@ When suggesting APIs, include:
 
 ### DO Use These Modern APIs
 
-| Feature      | Modern API                                             | Instead Of                     |
-| ------------ | ------------------------------------------------------ | ------------------------------ |
-| Clipboard    | `navigator.clipboard.writeText()`                      | `document.execCommand('copy')` |
-| Fetch data   | `fetch()` with async/await                             | `XMLHttpRequest`               |
-| DOM queries  | `querySelector()`, `querySelectorAll()`                | `getElementById()` alone       |
-| Iteration    | `for...of`, array methods                              | `for` loops with index         |
-| Async        | `async`/`await`, Promises                              | Callbacks, callback hell       |
-| Modules      | ES Modules (`import`/`export`)                         | CommonJS, AMD, global scripts  |
-| Classes      | ES6 `class` syntax                                     | Constructor functions          |
+| Feature      | Modern API                                             | Instead Of                                  |
+| ------------ | ------------------------------------------------------ | ------------------------------------------- |
+| Clipboard    | `navigator.clipboard.writeText()`                      | `document.execCommand('copy')`              |
+| Fetch data   | `fetch()` with async/await                             | `XMLHttpRequest`                            |
+| DOM queries  | `querySelector()`, `querySelectorAll()`                | complex DOM traversal with multiple queries |
+| Iteration    | `for...of`, array methods                              | `for` loops with index                      |
+| Async        | `async`/`await`, Promises                              | Callbacks, callback hell                    |
+| Modules      | ES Modules (`import`/`export`)                         | CommonJS, AMD, global scripts               |
+| Classes      | ES6 `class` syntax                                     | Constructor functions                       |
 | Storage      | IndexedDB, `localStorage`                              | Cookies for storage            |
 | Observers    | IntersectionObserver, MutationObserver, ResizeObserver | Scroll/resize event polling    |
 | Animations   | CSS animations, Web Animations API                     | jQuery animations              |
