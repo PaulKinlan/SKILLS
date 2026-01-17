@@ -171,7 +171,7 @@ When suggesting APIs, include:
 | Events       | `AbortController` for cancellation                     | Manual cleanup                 |
 | Positioning  | CSS Grid, Flexbox                                      | Float layouts                  |
 | Dialog/Modal | `<dialog>` element                                     | Custom modal divs              |
-| Popover      | Popover API (`popover` attribute)                      | Custom popover JS              |
+| Popover      | Popover API (`popover` attribute) — Baseline Newly Available; verify browser support before use | Custom popover JS              |
 | Scroll       | `scrollIntoView()` with options                        | Manual scroll calculations     |
 | Deep clone   | `structuredClone()`                                    | `JSON.parse(JSON.stringify())` |
 | UUID         | `crypto.randomUUID()`                                  | Libraries or manual generation |
