@@ -1,6 +1,6 @@
 ---
 name: chrome-extensions-development
-description: Expert knowledge in developing Chrome extensions covering all aspects from basic architecture to advanced features. Covers Manifest V3, service workers, content scripts, Chrome APIs, popup and options pages, security, performance, testing, debugging, and publishing. Use when developing Chrome extensions or migrating from Manifest V2 to V3.
+description: Expert knowledge in developing Chrome extensions covering all aspects from basic architecture to advanced features. Covers Manifest V3, service workers, content scripts, Chrome APIs, popup and options pages, security, performance, testing, debugging, and publishing. Use when developing Chrome extensions or migrating from Manifest V2 to V3. For HTML, CSS, and JavaScript best practices and modern web APIs, use the modern-web-dev skill.
 metadata:
   version: 1.0.0
 ---
@@ -8,6 +8,17 @@ metadata:
 # Chrome Extensions Development Skills
 
 This skill set provides expertise in developing Chrome extensions, covering all aspects from basic architecture to advanced features.
+
+## Prerequisites and Related Skills
+
+**Modern Web Development Foundation**: Chrome extensions are built using HTML, CSS, and JavaScript. For guidance on modern web APIs, browser features, and JavaScript best practices, see [modern-web-dev](../modern-web-development/SKILL.md). This skill focuses on Chrome extension-specific architecture, APIs, and patterns.
+
+When building extension UI (popups, options pages, content scripts), see [modern-web-dev](../modern-web-development/SKILL.md) for:
+- HTML/CSS/JavaScript best practices
+- Modern browser APIs (fetch, async/await, etc.)
+- Browser support and compatibility
+- Performance optimization techniques
+- Accessibility guidelines
 
 ## Overview
 
@@ -94,6 +105,8 @@ HTML pages that provide user interface.
 - Can be embedded or full page
 - Persistent settings via chrome.storage
 
+**Implementation Note**: When building these UI components, follow modern HTML/CSS/JavaScript practices from [modern-web-dev](../modern-web-development/SKILL.md). Use modern APIs like `fetch()`, `async/await`, and contemporary DOM manipulation techniques rather than legacy patterns.
+
 ### Chrome APIs
 
 **Essential APIs**:
@@ -140,6 +153,8 @@ HTML pages that provide user interface.
    - Implement message authentication
 
 ## Common Patterns
+
+**Note**: The examples below use modern JavaScript patterns (async/await, arrow functions, etc.). For comprehensive guidance on modern web APIs and JavaScript best practices, see [modern-web-dev](../modern-web-development/SKILL.md).
 
 ### Messaging Between Components
 
@@ -200,6 +215,7 @@ await chrome.scripting.insertCSS({
    - Use TypeScript for type safety
    - Implement hot reload for development
    - Use modern build tools (Webpack, Vite, Rollup)
+   - Follow [modern-web-dev](../modern-web-development/SKILL.md) for JavaScript/HTML/CSS coding standards and modern API usage
 
 3. **Testing**
    - Unit test business logic
@@ -279,3 +295,4 @@ await chrome.scripting.insertCSS({
 ✅ Provide clear privacy policy
 ✅ Keep extension updated
 ✅ Monitor user feedback
+✅ See [modern-web-dev](../modern-web-development/SKILL.md) for HTML/CSS/JavaScript best practices and modern browser APIs
