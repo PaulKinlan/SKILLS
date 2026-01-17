@@ -1,5 +1,5 @@
 ---
-name: moder-web-dev
+name: modern-web-dev
 description: |
   Use this skill when implementing web features to ensure modern APIs and techniques are used.
   Triggers: Building UI components, adding browser APIs, implementing features that could use legacy patterns.
