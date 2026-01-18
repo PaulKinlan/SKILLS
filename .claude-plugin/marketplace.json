@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    {
+      "name": "web-development-skills",
+      "source": "."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "web-development-skills",
+  "version": "1.0.0",
+  "description": "Comprehensive web development skills for Claude Code including modern web development, accessibility, performance, security, testing, and Chrome extensions development",
+  "author": {
+    "name": "PaulKinlan",
+    "url": "https://github.com/PaulKinlan"
+  },
+  "homepage": "https://github.com/PaulKinlan/SKILLS",
+  "repository": "https://github.com/PaulKinlan/SKILLS",
+  "license": "Apache-2.0",
+  "keywords": [
+    "web-development",
+    "modern-web",
+    "accessibility",
+    "performance",
+    "security",
+    "testing",
+    "chrome-extensions",
+    "skills"
+  ],
+  "skills": "./"
+}
