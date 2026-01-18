@@ -34,7 +34,36 @@ Expert knowledge in developing Chrome browser extensions using Manifest V3.
 
 ## Usage
 
-### Importing into Claude Projects
+### Install as Claude Code Plugin (Recommended)
+
+Install directly from the marketplace using Claude Code:
+
+```bash
+# Add this marketplace
+/plugin marketplace add PaulKinlan/SKILLS
+
+# Install the plugin
+/plugin install web-development-skills@PaulKinlan/SKILLS
+```
+
+Or install for your entire project team:
+
+```bash
+/plugin install web-development-skills@PaulKinlan/SKILLS --scope project
+```
+
+Once installed, all skills are automatically available to Claude Code:
+- `modern-web-dev` - Modern web development best practices
+- `chrome-extensions-development` - Chrome extension development
+- `web-accessibility` - Web accessibility (WCAG, ARIA)
+- `web-performance` - Performance optimization
+- `web-security` - Web security best practices
+- `web-best-practices` - Code quality and design patterns
+- `web-testing` - Testing strategies and frameworks
+
+### Manual Import (Alternative)
+
+If you prefer to import skills manually:
 
 1. Clone or download this repository
 2. In your Claude project (Claude Code or similar), reference the skill folders you need
